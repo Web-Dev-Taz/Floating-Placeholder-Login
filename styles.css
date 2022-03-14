@@ -71,10 +71,14 @@ input {
   background-color: var(--txt);
   border: none;
   font: inherit;
-  color: var(--btntxt);
+  color: #000;
   width: 100%;
   border-radius: 3rem;
   padding: 0.5rem 1rem;
+}
+
+.btn {
+  color: var(--btntxt);
 }
 
 input:focus {
